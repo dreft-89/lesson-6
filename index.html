@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="About meta tags Sample">   <!--описание содержимогсайта-->
+  <meta name="keywords" content="Meta-tags, forms"> <!--ключевые слова-->
+  <meta name="author" content="NameCompany">   <!--даные автора-->
+  <meta name="robots" content="index, follow">    <!---->
+  <meta name="copyright" content="@trademark">    <!---->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--это то как будет показываться наш сайт на мобильных устройствах / ширина как ширина девайса / в каком маштабе показывать нш сайт/-->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Meta + forms</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>  
+  <h1>Form</h1>
+  <form action="http://www.mocky.io/v2/5e48300b3000004000294aa0" method="post"> <!--novalidate propuskati bez zapolnenie formi-->
+  <label for="firstname">firstname</label>
+  <input type="text" id="firstname" name="firstname" required> <!--required obeazatelino zapolniti-->
+  <label for="lastname">lastname</label>
+  <input type="text" id="lastname" name="lastname" placeholder="Lastname">
+<!--
+  <label for="town">Town</label>
+  <select name="town" id="town">
+    <optgroup>
+      <option label="Chisinau">Chisianu</option>
+      <option value="Buiucani"></option>
+      <option value="Ciocana"></option>
+    </optgroup>
+    <option value="Balti">Balti</option>
+  </select>  -->
+
+  <input type="email" name="email">
+  <input type="phone" name="phone">
+  <input type="submit" value="Submit">  <!--knopka-->
+  <button type="submit">Click me</button>  <!--Knopka-->
+  </form>  <!--mocky.io-->
+</body>
+</html>
